@@ -1,12 +1,13 @@
 1) All the necessary files are present here including
    ML model, Dataset etc.
 
-2) So, to test everything you'll need to install Flask.
+2) So, to test everything on your local machine you'll 
+   need to install Flask.
    To do that, open cmd/terminal and type 
    "pip install flask"
 
 3) To run the local server type "python aviii.py" in the
-   terminal. Make sure to navigate to the mini project's 
+   terminal. Make sure to navigate to the project's root
    folder before running.
 
 4) While the server is running you might encounter some 404 
