@@ -59,4 +59,4 @@ jobs:
         with:
           app-name: 'HeartX'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_9bcb8015fc314658b9a2ca9ede2eaa54 }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_e62b066e21f14af7a62c3433ae8e2483 }}
