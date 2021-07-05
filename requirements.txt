@@ -19,6 +19,5 @@ six==1.14.0
 virtualenv==20.0.7
 Werkzeug==1.0.1
 wincertstore==0.2
-lightgbm==3.2.1
 seaborn
 
