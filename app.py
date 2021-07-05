@@ -4,11 +4,12 @@ import numpy as np
 import pickle
 from flask import Flask, request, render_template
 
+# Create application
+app = Flask(__name__)
 # Load ML model
 #model = pickle.load(open("testmodel.pkl", "rb")).....This doesnt work apparently
 model = pickle.load(open("testmodel.pkl", "rb"))
-# Create application
-app = Flask(__name__)
+
 #app = Flask('flaskapp', static_url_path='/avi_assets')
 
 # Bind home function to URL
