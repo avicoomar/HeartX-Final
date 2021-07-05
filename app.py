@@ -6,7 +6,7 @@ from flask import Flask, request, render_template
 
 # Load ML model
 #model = pickle.load(open("testmodel.pkl", "rb")).....This doesnt work apparently
-model = joblib.load(open(r".\testmodel.pkl",'rb'))
+model = pickle.load(open("testmodel.pkl", "rb"))
 # Create application
 app = Flask(__name__)
 #app = Flask('flaskapp', static_url_path='/avi_assets')
